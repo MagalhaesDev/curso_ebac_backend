@@ -16,18 +16,11 @@ public class People {
     public void setName(String name) {
         this.name = name;
     }
-
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
-    }
-
     public String getName() {
         return name;
     }
 
-    public String getSexo() {
-        return sexo;
-    }
+
 
     @Override
     public int hashCode() {
